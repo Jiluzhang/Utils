@@ -1,3 +1,4 @@
+## delete records with duplicates in wig file
 p=0
 cat GSM2236619_Bcatenin.mouse.wig | while read line;do
 	if [ ${line:0:1} = "f" ];then
